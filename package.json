@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "jest": "^25.1.0",
+    "jest-config": "25.1.0",
+    "jest-html-reporter": "2.8.0",
+    "miniprogram-automator": "0.9.1"
+  },
+  "scripts": {
+    "test": "jest --config jest.config.js --runInBand",
+    "test spec": "jest index.spec.js --verbose",
+    "test test": "jest action.test.js"
+  }
+}
